@@ -1,0 +1,223 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    background-color: black;
+}
+.navg{
+    display: flex;
+    background-color: rgb(32, 31, 31);
+    justify-content: flex-end;
+}
+.nav-flex{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: wheat;
+    padding-right: 20px;
+}
+.cta{
+    background-color: wheat;
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.cbtn{
+    text-decoration: none;
+    color: black;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+img{
+    display: flex;
+    border-radius: 10px;
+}
+#intro{
+    display: flex;
+    margin: 80px 60px 50px 60px;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+}
+#about{
+    display: flex;
+    margin: 80px 60px 50px 60px;
+    justify-content: space-between;
+    height: 400px;
+}
+.name{
+   width: 750px;
+}
+li{
+   font-size: 18px;
+   color: grey;
+   line-height: 25px;
+}
+.headings{
+   color: wheat;
+}
+.headings1{
+   color: wheat;
+   text-align: center;
+}
+p{
+   color: grey;
+   line-height: 30px;
+}
+label{
+   display: block;
+   color: wheat;
+  line-height: 2px;
+}
+#services{
+  display: flex;
+  margin: 40px 60px 50px 60px;
+  justify-content: space-around;
+  height: 250px;
+  padding: 20px;
+}
+h3{
+  color: wheat;
+}
+.graphic{
+   border: 1px solid wheat;
+   height: 150px;
+   text-align: center;
+  border-radius: 20px;
+  width: 350px;
+  padding: 15px;
+}
+.ui{
+   border: 1px solid wheat;
+   height: 150px;
+   text-align: center;
+   border-radius: 20px;
+   width: 350px;
+   padding: 15px;
+}
+ .web{
+   border: 1px solid wheat;
+   height: 150px;
+   text-align: center;
+  border-radius: 20px;
+  width: 350px;
+  padding: 15px
+}
+#projects{
+  display: flex;
+  margin: 0 60px 50px 60px;
+  justify-content: space-around;
+  height: 400px;
+  padding: 20px;
+}
+.chanty{
+   height: 300px;
+   text-align: center;
+   width: 350px;
+   padding: 15px;
+}
+.clean{
+   height: 300px;
+   text-align: center;
+   width: 350px;
+   padding: 15px;
+}
+.reg{
+   height: 300px;
+   text-align: center;
+   width: 350px;
+  padding: 15px;
+}
+.phead{
+   color: wheat;
+   text-align: center;
+   height: 55px;
+   width: 350px;
+   padding-top: 20px ;
+   border-bottom: 2px solid wheat;
+   border-radius: 10px;
+}
+.view{
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    border: 1px solid wheat;
+    border-radius: 8px;
+    margin-top: 15px;
+    background-color: black;
+}
+.views{
+   color: wheat;
+   text-align: center;
+   text-decoration: none;
+}
+#contact{
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-top: 50px;
+}
+.email{
+    text-align: left;
+    border-bottom: 2px solid wheat;
+    border-radius: 8px;
+    width:500px;
+    height: 30px;
+    padding-left: 8px;
+    font-size: 16px;
+    background-color: black;
+    margin-bottom: 15px;
+}
+.yname{
+    text-align: left;
+    border-bottom: 2px solid wheat;
+    border-radius: 8px;
+    width:500px;
+    height: 30px;
+    padding-left: 8px;
+    font-size: 16px;
+    background-color: black;
+    margin-bottom: 15px;
+}
+textarea{
+    text-align: left;
+    border-bottom: 2px solid wheat;
+    border-radius: 8px;
+    width:500px;
+    padding-left: 8px;
+    font-size: 16px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: wheat;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:30px;
+}
+p a {
+   color: wheat;
+   text-decoration: none;
+}
