@@ -1,0 +1,112 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+      margin: 0 auto;
+      background-color: hsl(0, 0%, 95%);
+  }
+  h2{
+      font-family: 'Big Shoulders Display', cursive;
+      color: hsl(0, 0%, 95%);
+  }
+  .sedans{
+      background-color: hsl(31, 77%, 52%);
+      height: 350px;
+      width: 450px;
+      padding: 40px;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+  }
+  .suvs{
+      background-color: hsl(184, 100%, 22%);
+      height: 350px;
+      width: 450px;
+      padding: 40px;
+  }
+  .luxury{
+      background-color: hsl(179, 100%, 13%);
+      height: 350px;
+      width: 450px;
+      padding: 40px;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+  }
+  p{
+      color: hsla(0, 0%, 100%, 0.75);
+      line-height: 25px;
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+  }
+  .flex{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 60px 250px;
+      border-radius: 10px;
+  }
+  .btnse{
+      background-color: hsl(0, 0%, 95%);
+      border: none;
+      padding: 13px 30px;
+      border-radius: 50px;
+      margin-top: 50px;
+      font-family: 'Lexend Deca', sans-serif;
+  }
+  .btnsu{
+      background-color: hsl(0, 0%, 95%);
+      border: none;
+      padding: 13px 30px;
+      border-radius: 50px;
+      margin-top: 50px;
+      font-family: 'Lexend Deca', sans-serif;
+  }
+  .btnl{
+      background-color: hsl(0, 0%, 95%);
+      border: none;
+      padding: 13px 30px;
+      border-radius: 50px;
+      margin-top: 50px;
+      font-family: 'Lexend Deca', sans-serif;
+  }
+  .btnse:hover{
+      background-color:hsl(31, 77%, 52%);
+      color: hsl(0, 0%, 95%);
+      border: 2px solid hsl(0, 0%, 95%);
+      cursor: pointer;
+  }
+  .btnsu:hover{
+      background-color:hsl(184, 100%, 22%);
+      color: hsl(0, 0%, 95%);
+      border: 2px solid hsl(0, 0%, 95%);
+      cursor: pointer;
+  }
+  .btnl:hover{
+      background-color:hsl(179, 100%, 13%);
+      color: hsl(0, 0%, 95%);
+      border: 2px solid hsl(0, 0%, 95%);
+      cursor: pointer;
+  }
+  .btn{
+      background-color: hsl(168, 88%, 26%);
+      color: hsl(0, 0%, 95%);
+      border: none;
+      padding: 13px 30px;
+      border-radius: 50px;
+      margin-top: 50px;
+      font-family: 'Lexend Deca', sans-serif;
+      position: relative;
+      left: 250px;
+      bottom: 50px;
+  }
+  .btn:hover{
+      background-color:hsl(179, 100%, 13%);
+      color: hsl(0, 0%, 95%);
+      border: 2px solid hsl(0, 0%, 95%);
+      cursor: pointer;
+  }
+  a{
+      text-decoration: none;
+      color: hsl(0, 0%, 95%);
+  }

@@ -1,0 +1,42 @@
+body{
+    margin: 0 auto;
+}
+.a{
+    background-color: orangered;
+    grid-area: a;
+    padding: 100px;
+}
+.b{
+    background-color: orange;
+    grid-area: b;
+    padding: 60px;
+}
+.c{
+    background-color: green;
+    grid-area: c;
+    padding: 50px;
+}
+.d{
+    background-color: rgb(36, 176, 231);
+    grid-area: d;
+    padding: 50px;
+}
+.e{
+    background-color: rgb(36, 176, 231);
+    grid-area: e;  
+    padding: 70px; 
+}
+.grid{
+    margin: auto;
+    padding-top: 100px;
+    display: grid;
+    grid-template-areas: 
+    "a a a b"
+    "a a a b "
+    "c c d d "
+    "c c e e";
+    grid-gap: 10px;
+    width: 50%;
+    height: 400px;
+    align-content: center;
+}
